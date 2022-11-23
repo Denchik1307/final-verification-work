@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e" pages="2">
+    <diagram id="kAmQsxuA2Zn5b5saKh1c" name="Страница 1">
+        <mxGraphModel dx="1888" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-1" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="307" y="40" width="206" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fillStyle=solid;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#00072E;strokeWidth=1;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="YVv_Yu_thE5XSnDyVQk3-2" target="YVv_Yu_thE5XSnDyVQk3-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-2" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;string&lt;/span&gt;[] &lt;span style=&quot;&quot;&gt;testOne&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;string&lt;/span&gt;[] &lt;span style=&quot;&quot;&gt;testTwo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;string&lt;/span&gt;[] &lt;span style=&quot;&quot;&gt;testThird&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;string&lt;/span&gt;[] &lt;span style=&quot;&quot;&gt;manualInputArray&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="277" y="160" width="266" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fillStyle=solid;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#00072E;strokeWidth=1;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="YVv_Yu_thE5XSnDyVQk3-4" target="YVv_Yu_thE5XSnDyVQk3-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-4" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;&quot;&gt;перебираем элеметы из массива&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .Select&lt;/span&gt;(&lt;span style=&quot;&quot;&gt;s&lt;/span&gt; =&amp;gt; &lt;span style=&quot;&quot;&gt;s&lt;/span&gt;)&lt;/div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;выбираем подходящие&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;&amp;nbsp;.&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;Where&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt; =&amp;gt; (&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;.Length &amp;lt;= &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;))&lt;br&gt;создаем из них массив&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;ToArray&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;();&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;align=right;" parent="1" vertex="1">
+                    <mxGeometry x="185.625" y="290" width="448.75" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fillStyle=solid;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00072E;strokeWidth=1;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="YVv_Yu_thE5XSnDyVQk3-10" target="YVv_Yu_thE5XSnDyVQk3-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-10" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;&quot;&gt;выводим с помощью String&lt;/span&gt;.&lt;span style=&quot;&quot;&gt;Join&lt;/span&gt;()&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="297.5" y="400" width="225" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fillStyle=solid;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#00072E;strokeWidth=1;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="YVv_Yu_thE5XSnDyVQk3-12" target="YVv_Yu_thE5XSnDyVQk3-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="YVv_Yu_thE5XSnDyVQk3-12" value="Конец" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="289" y="510" width="246" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
