@@ -5,8 +5,6 @@ string[] testTwo = { "1234", "1567", "-2", "computer science" };
 string[] testThird = { "Russia", "Denmark", "Kazan" };
 string[] manualInputArray = GetArrayFromConsole("Input STRING array split , : ");
 
-Console.WriteLine(manualInputArray.Length);
-
 string[] resultOne = FindStringBySizeInArray(testOne);
 ShowResult(testOne, resultOne);
 
@@ -35,7 +33,7 @@ void ShowResult(string[] test, string[] result)
     Console.WriteLine();
 }
 
-string[] FindStringBySizeInArray(string[] str, int length = 3) => str.Select(s => s).Where(s => (s.Length <= length)).ToArray();
+string[] FindStringBySizeInArray(string[] str, int length = 3) => str.Where(s => s.Length <= length).ToArray();// Select(s => s).Where(s => (s.Length <= length)).ToArray();
 
 void ShowArray(string[] inputArray)
 {
