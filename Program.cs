@@ -26,21 +26,18 @@ string[] GetArrayFromConsole(string message = "")
 
 void ShowResult(string[] test, string[] result)
 {
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine();
     ShowArray(test);
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.Write("->");
+    Console.ForegroundColor = ConsoleColor.Yellow;
     ShowArray(result);
+    Console.ForegroundColor = ConsoleColor.White;
     Console.WriteLine();
 }
 
-string[] FindStringBySizeInArray(string[] str, int length = 3)
-{
-    string tmp = String.Empty;
-    foreach (string item in str)
-    {
-        if(item.Length<=length) tmp+=item +" ";
-    }
-    return tmp.TrimEnd().Split(' ');
-}
+string[] FindStringBySizeInArray(string[] str, int length = 3) => str.Where(s => s.Length <= length).ToArray();
 
 void ShowArray(string[] inputArray)
 {
